@@ -1,0 +1,99 @@
+.profile-container {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f8e9; /* Light green background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile-details {
+    margin-left: 20px;
+  }
+
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e7d32; /* Dark green name color */
+  }
+
+  .profile-genre {
+    color: #43a047; /* Medium green genre color */
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .profile-bio {
+    color: #33691e; /* Dark green bio color */
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .profile-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #1b5e20; /* Dark green link color */
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .profile-links a:hover {
+    text-decoration: underline;
+  }
+
+  .albums {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .album-card {
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #f1f8e9; /* Light green album card background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .album-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .album-card p {
+    padding: 10px;
+    margin: 0;
+    color: #2e7d32; /* Dark green album text color */
+  }
+
+  .reviews-section {
+    margin-top: 30px;
+  }
+
+  .review {
+    background-color: #f1f8e9; /* Light green review background */
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .review p {
+    margin: 0;
+    color: #33691e; /* Dark green review text color */
+  }
+
+  .review-details {
+    font-size: 14px;
+    color: #1b5e20; /* Dark green details color */
+  }
